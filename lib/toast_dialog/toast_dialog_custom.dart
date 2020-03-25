@@ -203,7 +203,6 @@ HideCallback showMessageToast(
   alignment = alignment ?? config.toastAlignment;
 
   Completer<VoidCallback> result = Completer<VoidCallback>();
-  // var backButtonName = 'CoolUI_WeuiToast$backButtonIndex';
   var backButtonName = 'Show_MessageToast $backButtonIndex';
   BackButtonInterceptor.add((stopDefaultButtonEvent) {
     print(backButtonClose);
